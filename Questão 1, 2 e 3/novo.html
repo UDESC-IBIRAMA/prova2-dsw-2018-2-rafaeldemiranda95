@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Novo - Cadastro</title>
+        <meta charset="UTF-8">
+          <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+        function Salvar(){
+            getElementById('titulo');
+        }
+        
+        </script>
+    </head>
+    <body>
+        <div class="cadastro">
+            
+            <form >
+               
+                <label>IBSN</label>
+                <input class="requerido" required type="text" name="isbn" placeholder="Digite aqui o ISBN"/>
+                <label>Título</label>
+                <input class="requerido" id="titulo" required type="text" name="titulo" placeholder="Digite aqui o Título"/>
+                <label>Autor</label>
+                <input class="requerido" required type="text" name="autor" placeholder="Digite aqui o Autor"/>
+                <label>Ano</label>
+                <input type="number" name="ano" placeholder="Digite aqui o Ano"/>
+                
+                <label>Quantidade</label>
+                <input type="number" name="quantidade" placeholder="Digite aqui a Quantidade"/>
+                
+                <input type="submit" name="Salvar">
+                <button>Resultado</button>
+                
+                
+            </form>
+            
+        </div>
+    </body>
+</html>
